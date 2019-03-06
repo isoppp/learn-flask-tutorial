@@ -10,6 +10,10 @@ pre-commit = "*"
 
 [packages]
 flask = "*"
+python-dotenv = "*"
 
 [requires]
 python_version = "3.7"
+
+[scripts]
+dev = "flask run"
